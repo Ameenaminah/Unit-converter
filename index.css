@@ -3,12 +3,11 @@
 }
 body {
   text-align: center;
-  height: 100vh;
-  margin: 0;
+  margin: 50px;
 }
 .container {
   width: 550px;
-  height: 100vh;
+  height: 729px;
   background: #1f2937;
   display: block;
   margin: 0 auto;
@@ -52,9 +51,7 @@ button {
   border-radius: 5px;
   border: none;
 }
-.group-container {
-  margin: 0;
-}
+
 .group {
   width: 500px;
   height: 90px;
@@ -65,5 +62,5 @@ button {
   text-align: center;
   padding: 10px 0;
   color: white;
-  margin-top: 50px;
+  margin-top: 20px;
 }
