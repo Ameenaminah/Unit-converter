@@ -1,62 +1,69 @@
+* {
+  box-sizing: border-box;
+}
 body {
-   text-align: center;
+  text-align: center;
+  height: 100vh;
+  margin: 0;
 }
 .container {
-   width: 550px;
-   height: 600px;
-   background: #1F2937;
-   display: block;
-   margin: 0 auto;
-   border-radius: 10px;
+  width: 550px;
+  height: 100vh;
+  background: #1f2937;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
 }
 main {
-   
-   background: #0d0c13;
-   color: #FFFFFF;
-   padding: 10px 50px;
-   border-radius: 10px;
+  background: #0d0c13;
+  color: #ffffff;
+  padding: 10px 50px;
+  border-radius: 10px;
 }
 h1 {
-   width: 448.4px;
-   height: 38px;
-   font-family: 'Inter';
-   font-style: normal;
-   font-weight: 800;
-   font-size: 28px;
-   line-height: 38px;
+  width: 448.4px;
+  height: 38px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 38px;
 }
 input {
-   width: 117px;
-   height: 60px;
-   border: 2px solid #B295FF;
-   border-radius: 5px;
-   font-family: 'Inter';
-   font-style: normal;
-   font-weight: 800;
-   font-size: 58px;
-   margin: 0 auto 20px auto;
-   text-align: center;
-   display: block;
-   background: #0d0c13;
-   color: white;
-   
+  width: 117px;
+  height: 60px;
+  border: 2px solid #b295ff;
+  border-radius: 5px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 58px;
+  margin: 0 auto 20px auto;
+  text-align: center;
+  display: block;
+  background: #0d0c13;
+  color: white;
 }
 button {
-   width: 117px;
-   height: 42px;
-   background: #FFFFFF;
-   box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
-   border-radius: 5px;
-   border: none;
+  width: 117px;
+  height: 42px;
+  background: #ffffff;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+  border: none;
+}
+.group-container {
+  margin: 0;
 }
 .group {
-   width: 500px;
-   height: 90px;
-   background: #273549;
-   border-radius: 4.68077px 0px 0px 0px;
-   display: block;
-   margin: 10px auto;
-   text-align: center;
-   padding:10px 0;
-   color: white;
+  width: 500px;
+  height: 90px;
+  background: #273549;
+  border-radius: 4.68077px 0px 0px 0px;
+  display: block;
+  margin: 10px auto;
+  text-align: center;
+  padding: 10px 0;
+  color: white;
+  margin-top: 50px;
 }
